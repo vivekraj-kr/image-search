@@ -1,0 +1,14 @@
+.mt-15 {
+    margin-top: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 10px;
+    grid-auto-rows: 10px;
+}
+
+.grid-container img {
+    max-width: 100%;
+}
